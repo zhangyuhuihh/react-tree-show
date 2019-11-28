@@ -2,6 +2,7 @@
 #### 在react项目中需求一个树形数据的展示组件，在网上找找好像没有找到合适的，在此自己写了一个，做一个小分享
 #### 效果如下：
 
+![image](https://github.com/zhangyuhuihh/react-tree-show/blob/master/demo.png)
 #### 依赖：lodash , memoize-one
 
 #### 数据结构：(其中pid是必须的，值为父节点主键值)
