@@ -20,7 +20,7 @@ const flatTree = data => {
   return arr
 }
 
-class CascderTest extends React.Component {
+class TreeShow extends React.Component {
   constructor() {
     super()
     this.state = {
@@ -320,4 +320,4 @@ CascderTest.defaultProps = {
   cellClick: () => {}
 }
 
-export default CascderTest
+export default TreeShow
