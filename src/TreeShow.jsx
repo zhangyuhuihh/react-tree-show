@@ -285,7 +285,7 @@ class TreeShow extends React.Component {
   }
 }
 
-CascderTest.propTypes = {
+TreeShow.propTypes = {
   cellMarginTop: PropTypes.number,
   cellMarginLeft: PropTypes.number,
   cellColor: PropTypes.string,
@@ -305,7 +305,7 @@ CascderTest.propTypes = {
   }).isRequired
 }
 
-CascderTest.defaultProps = {
+TreeShow.defaultProps = {
   cellMarginTop: 10,
   cellMarginLeft: 50,
   cellColor: '#fff',
