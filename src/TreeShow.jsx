@@ -217,6 +217,9 @@ class TreeShow extends React.Component {
 
   calCellWidth(element) {
     const { models, fontSize } = this.props
+    if (this.props.cellWidth) {
+      return this.props.cellWidth
+    }
     return element[models.label].length * fontSize + 20
   }
 
